@@ -39,6 +39,8 @@ Code References:
 
 - [VGG16 Reference](https://www.kaggle.com/code/raulcsimpetru/vgg16-binary-classification/notebook)
 
+- [Keras Documentatio](https://keras.io/api/)
+
 Images:
 
 - [Banner](https://www.adamsluka.com/forgery.html)
