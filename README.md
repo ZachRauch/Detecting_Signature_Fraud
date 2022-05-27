@@ -37,6 +37,8 @@ Code References:
 
 - [Image Augmentation](https://machinelearningmastery.com/how-to-configure-image-data-augmentation-when-training-deep-learning-neural-networks/)
 
+- [VGG16 Reference](https://www.kaggle.com/code/raulcsimpetru/vgg16-binary-classification/notebook)
+
 Images:
 
 - [Banner](https://www.adamsluka.com/forgery.html)
