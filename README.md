@@ -55,3 +55,13 @@ Code References:
 Images:
 
 - [Banner](https://www.adamsluka.com/forgery.html)
+
+Streamlit References: 
+
+- [Streamlit](https://streamlit.io/)
+
+- [How to Run Streamlit Apps From Colab](https://medium.com/@jcharistech/how-to-run-streamlit-apps-from-colab-29b969a1bdfc) 
+
+- [Code reference](https://github.com/jingxianho/streamlit-local-tunnel/blob/main/Streamlit_local_tunnel.ipynb)
+
+- [NGROK](https://dashboard.ngrok.com/get-started/setup)
