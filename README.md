@@ -12,7 +12,7 @@ The aim of this analysis is to identify fraudulent signatures in a dataset. My a
 Currently institutions and businesses recognize signatures as the primary way of authenticating transactions. Signatures are used to sign checks, authorize documents and contracts, and validate credit card transactions. According to recent studies, check fraud costs banks about $900M a year with 22 percent of all fraudulent checks attributed to signature fraud. Therefor, creating an algorithm to identify signature fraud or flagging suspicious signatures for investigations is a valuable asset.
 ---
 ## Data 
-
+The data was collected from kaggle [here](https://www.kaggle.com/datasets/divyanshrai/handwritten-signatures). The dataset contains just 300 samples of genuine and forged signatures from 30 people, of which 50 percent are genuine and 50 percent are forged. This is an ideal class balance when building and training a model but it is a rather small sample size. To train the model more effectively, image augmentation was performed to raise the training dataset from 240 images up to 3,360 images. 
 ---
 ## Methodology
 
