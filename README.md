@@ -1,5 +1,5 @@
 # Signature Classification
-
+[img](./images/signature_banner.jpeg)
 ### Authors 
 Zachary Rauch: 
 [LinkedIn](https://www.linkedin.com/in/zach-rauch/) |
