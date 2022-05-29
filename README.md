@@ -1,6 +1,6 @@
 # Signature Classification
 ![img](./images/signature_banner.jpeg)
-### Authors 
+### Author 
 Zachary Rauch: 
 [LinkedIn](https://www.linkedin.com/in/zach-rauch/) |
 [GitHub](https://github.com/ZachRauch)|
