@@ -23,9 +23,12 @@ Zachary Rauch:
 
 ## Repository Structure
 ```
-├── Workspace  
+├── Data 
+├── Workspace
+├── images
 ├── .gitignore
-└── READ.md
+├── READ.md
+└── Signature_Classification.ipynb
 ```
 ## Citations
 
