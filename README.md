@@ -6,21 +6,29 @@ Zachary Rauch:
 [GitHub](https://github.com/ZachRauch)|
 [Email](zach.rauch0@gmail.com)
 ## Overview
-
+The aim of this analysis is to identify fraudulent signatures in a dataset. My audience here is ___. Using just a small dataset with only 300 sample I was able to create a classification model that accurately classifies fraudulent signatures _____.
+---
 ## Business Understanding and Stakeholder
-
+Currently institutions and businesses recognize signatures as the primary way of authenticating transactions. Signatures are used to sign checks, authorize documents and contracts, and validate credit card transactions. According to recent studies, check fraud costs banks about $900M a year with 22 percent of all fraudulent checks attributed to signature fraud. Therefor, creating an algorithm to identify signature fraud or flagging suspicious signatures for investigations is a valuable asset.
+---
 ## Data 
 
+---
 ## Methodology
 
+---
 ## Results
 
+---
 ## Conclusion
 
+---
 ## Next Steps
 
+---
 ## Direct Links
 
+---
 ## Repository Structure
 ```
 ├── Data 
