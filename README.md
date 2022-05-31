@@ -33,7 +33,9 @@ Zachary Rauch:
 
 ---
 ## Next Steps
-
+- Gather more data: The dataset used in this study had only 300 images to work with. With more data, a model may be able to detect other patterns for classifying genuine and forged signatures.
+- More complex models: With more time and resources, training more complex or pretrain models may prove benificial. Complex models take time and memory to run but can provide better results.
+- 
 ---
 ## App Deployment
 
@@ -48,7 +50,8 @@ Zachary Rauch:
 ├── images
 ├── .gitignore
 ├── READ.md
-└── Signature_Classification.ipynb
+├── Signature_Classification.ipynb
+└── app.py
 ```
 ## Citations
 
