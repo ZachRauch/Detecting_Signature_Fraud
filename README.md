@@ -23,6 +23,9 @@ Zachary Rauch:
 ---
 ## Results
   Model3's crossvalidation score was 55%. When fit the model's maximum validation accuracy was 57% with a binary cross-entropy loss of .69. This is the highest fitted validation accuracy and lowest loss score of all the models. Thus Model3 was selected to be the final model. When evaluated on the test data it accurately classified 67% of the signatures.
+![img](./images/confusion_matrix.jpeg)
+
+![img](./images/auc_curve.jpeg)
 
 ---
 ## Conclusion
@@ -63,6 +66,10 @@ Code References:
 Images:
 
 - [Banner](https://www.adamsluka.com/forgery.html)
+
+- 
+
+- 
 
 Streamlit References: 
 
