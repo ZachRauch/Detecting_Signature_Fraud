@@ -65,3 +65,5 @@ Streamlit References:
 - [Code reference](https://github.com/jingxianho/streamlit-local-tunnel/blob/main/Streamlit_local_tunnel.ipynb)
 
 - [NGROK](https://dashboard.ngrok.com/get-started/setup)
+
+- [st.file_uploader to array](https://discuss.streamlit.io/t/png-bytes-io-numpy-conversion-using-file-uploader/1409)
