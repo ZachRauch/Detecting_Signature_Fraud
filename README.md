@@ -38,6 +38,7 @@ Zachary Rauch:
 - 
 ---
 ## App Deployment
+[Try the app](https://share.streamlit.io/zachrauch/signature_classification/main/app.py)
 
 ---
 ## Direct Links
