@@ -28,6 +28,8 @@ Zachary Rauch:
 
 The confusion matrix above shows the counts of our predicted target variable against the actual target variable counts.
 
+![img](./images/)
+
 ---
 ## Conclusion
   With minimal data an accurate model was produced. With this model an app was developed as an example of how this model could be used. In addition with more data and resources this model could be improved. 
