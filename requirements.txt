@@ -3,5 +3,5 @@ Pillow==7.1.2
 
 streamlit==1.9.2
 
-tensorflow==2.8.0+zzzcolab20220506162203
+tensorflow==2.8.0
 
