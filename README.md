@@ -45,7 +45,7 @@ The confusion matrix above shows the counts of our predicted target variable aga
 
 ---
 ## Direct Links
-- [Presentation]()
+- [Presentation](https://github.com/ZachRauch/Signature_Classification/blob/main/Presentation.pdf)
 - [Jupyter Notebook](https://github.com/ZachRauch/Signature_Classification/blob/main/Signature_Classification.ipynb)
 ---
 ## Repository Structure
@@ -54,6 +54,7 @@ The confusion matrix above shows the counts of our predicted target variable aga
 ├── Workspace
 ├── images
 ├── .gitignore
+├── Presentation.pdf
 ├── READ.md
 ├── Signature_Classification.ipynb
 ├── app.py
