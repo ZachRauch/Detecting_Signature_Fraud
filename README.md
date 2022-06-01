@@ -51,7 +51,8 @@ Zachary Rauch:
 ├── .gitignore
 ├── READ.md
 ├── Signature_Classification.ipynb
-└── app.py
+├── app.py
+└── requirements.txt
 ```
 ## Citations
 
