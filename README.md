@@ -22,27 +22,30 @@ Zachary Rauch:
 
 ---
 ## Results
-  Model3's crossvalidation score was 55%. When fit the model's maximum validation accuracy was 57% with a binary cross-entropy loss of .69. This is the highest fitted validation accuracy and lowest loss score of all the models. Thus Model3 was selected to be the final model. When evaluated on the test data it accurately classified 67% of the signatures.
+  Model3's crossvalidation score was 55%. When fit the model's maximum validation accuracy was 57% with a binary cross-entropy loss of .69. This is the highest fitted validation accuracy and lowest loss score of all the models. Thus Model3 was selected to be the final model. When evaluated on the test data it accurately classified 67% of signatures.
 
 ![img](./images/confusion_matrix.jpeg)
 
-![img](./images/auc_curve.jpeg)
+The confusion matrix above shows the counts of our predicted target variable against the actual target variable counts.
 
 ---
 ## Conclusion
+  With minimal data an accurate model was produced. With this model an app was developed as an example of how this model could be used. In addition with more data and resources this model could be improved. 
 
 ---
 ## Next Steps
 - Gather more data: The dataset used in this study had only 300 images to work with. With more data, a model may be able to detect other patterns for classifying genuine and forged signatures.
 - More complex models: With more time and resources, training more complex or pretrain models may prove benificial. Complex models take time and memory to run but can provide better results.
-- 
+
 ---
 ## App Deployment
+  An app was created based on the final model. The [app.py](https://github.com/ZachRauch/Signature_Classification/blob/main/app.py) file contains the script to run the app. The [requirements.txt](https://github.com/ZachRauch/Signature_Classification/blob/main/requirements.txt) file contains the packages required for the app to work through [streamlit](https://streamlit.io/). Click the link below and upload a png of a signature to test it out. 
 [Try the app](https://share.streamlit.io/zachrauch/signature_classification/main/app.py)
 
 ---
 ## Direct Links
-
+- [Presentation]()
+- [Jupyter Notebook](https://github.com/ZachRauch/Signature_Classification/blob/main/Signature_Classification.ipynb)
 ---
 ## Repository Structure
 ```
@@ -72,10 +75,6 @@ Code References:
 Images:
 
 - [Banner](https://www.adamsluka.com/forgery.html)
-
-- 
-
-- 
 
 Streamlit References: 
 
