@@ -34,8 +34,9 @@ The confusion matrix above shows the counts of our predicted target variable aga
 
 ---
 ## Next Steps
-- Gather more data: The dataset used in this study had only 300 images to work with. With more data, a model may be able to detect other patterns for classifying genuine and forged signatures.
-- More complex models: With more time and resources, training more complex or pretrain models may prove benificial. Complex models take time and memory to run but can provide better results.
+- Gather More Data: The dataset used in this study had only 300 images to work with. With more data, a model may be able to detect other patterns for classifying genuine and forged signatures.
+- More Complex Models: With more time and resources, training more complex or pretrain models may prove benificial. Complex models take time and memory to run but can provide better results.
+- Types of Signatures: Explore different types of signatures, for example electronic versus physical. Explore different types of forgeries, for example skilled versus blind.
 
 ---
 ## App Deployment
