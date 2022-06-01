@@ -63,6 +63,8 @@ The confusion matrix above shows the counts of our predicted target variable aga
 
 - [Business Understanding](https://towardsdatascience.com/signature-fraud-detection-an-advanced-analytics-approach-a795b0e588b2)
 
+- [Mobile Deposits](https://www.retaildive.com/ex/mobilecommercedaily/mobile-users-deposit-over-40-billion-in-checks-via-mobile-mitek#:~:text=%E2%80%9CAnalyst%20data%20shows%20that%20more,and%20convenient%2C%20it's%20fun.%E2%80%9D)
+
 - [Data](https://www.kaggle.com/datasets/divyanshrai/handwritten-signatures)
 
 Code References:
@@ -76,6 +78,10 @@ Code References:
 Images:
 
 - [Banner](https://www.adamsluka.com/forgery.html)
+
+- [Wells Fargo Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wells_Fargo_Bank.svg/2048px-Wells_Fargo_Bank.svg.png)
+
+- [Kaggle Logo](https://upload.wikimedia.org/wikipedia/commons/7/7c/Kaggle_logo.png)
 
 Streamlit References: 
 
