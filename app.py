@@ -43,7 +43,7 @@ def build_model():
     return model
 
 
-f = open('drive/MyDrive/model3_pickle.sav', 'rb')
+f = open('./Data/model3_pickle.sav', 'rb')
 final_model = pickle.load(f)
 f.close()
 
