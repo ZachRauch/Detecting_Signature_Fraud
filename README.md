@@ -99,3 +99,11 @@ Streamlit References:
 - [NGROK](https://dashboard.ngrok.com/get-started/setup)
 
 - [st.file_uploader to array](https://discuss.streamlit.io/t/png-bytes-io-numpy-conversion-using-file-uploader/1409)
+
+Seaborn and Matplotlib Colors:
+
+- [Color Palettes](https://seaborn.pydata.org/tutorial/color_palettes.html)
+
+- [Python Color Constants](https://www.webucator.com/article/python-color-constants-module/) 
+
+
