@@ -18,7 +18,7 @@ Zachary Rauch:
 
 ---
 ## Methodology
-  I used a Keras wrapper in order to utilize scikit learns cross validation to assist in evaluating each model. I also used metrics of loss and accuracy while fitting to aid in determining the final model. The metrics of loss and accuracy were recorded using a ModelCheckpoint that saved the weghts of the best Epoch in regards to validation accuracy.
+  I utilized Google colab to run my notebooks. The [colab_requirements](https://github.com/ZachRauch/Signature_Classification/blob/main/Data/colab_requirements.txt) are the package requirements the notebooks were run on. Using Google Colab significantly reduced runtime and allowed me to use newer versions of tensorflow. However, I was still limited by my working memory. I used a Keras wrapper in order to utilize scikit learns cross validation to assist in evaluating each model. I also used metrics of loss and accuracy while fitting to aid in determining the final model. The metrics of loss and accuracy were recorded using a ModelCheckpoint that saved the weghts of the best Epoch during gitting in regards to validation accuracy.
 
 ---
 ## Results
@@ -26,9 +26,11 @@ Zachary Rauch:
 
 ![img](./images/confusion_matrix.jpeg)
 
-The confusion matrix above shows the counts of our predicted target variable against the actual target variable counts.
+  The confusion matrix above shows the counts of our predicted target variable against the actual target variable counts.
 
-![img](./images/)
+![img](./images/Prediction_Accuracy.jpeg)
+
+  More specifically, the model is accurate 74% of the time for Genuine signatures and 61% percent for Forged signatures.
 
 ---
 ## Conclusion
