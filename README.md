@@ -10,19 +10,19 @@ Zachary Rauch:
 
 ---
 ## Business Understanding 
-  Currently institutions and businesses recognize signatures as the primary way of authenticating transactions. Signatures are used to sign checks, authorize documents and contracts, and validate credit card transactions. According to recent studies, check fraud costs banks about $900M a year with 22 percent of all fraudulent checks attributed to signature fraud. Therefor, creating an algorithm to identify signature fraud or flagging suspicious signatures for further investigation is a valuable asset.
+  Currently institutions and businesses recognize signatures as the primary way of authenticating transactions. Signatures are used to sign checks, authorize documents and contracts, and validate credit card transactions. According to recent studies, check fraud costs banks about $900M a year with 22 percent of all fraudulent checks attributed to signature fraud. Therefore, creating an algorithm to identify signature fraud or flagging suspicious signatures for further investigation is a valuable asset.
 
 ---
 ## Data 
-  The data was collected from kaggle [here](https://www.kaggle.com/datasets/divyanshrai/handwritten-signatures). The dataset contains just 300 samples of genuine and forged signatures from 30 people, of which 50 percent are genuine and 50 percent are forged. This is an ideal class balance when building and training a model but it is a rather small sample size. To train the model more effectively, image augmentation was performed to raise the training dataset from 240 images up to 3,360 images. 
+  The data was collected from kaggle [here](https://www.kaggle.com/datasets/divyanshrai/handwritten-signatures). The dataset contains just 300 samples of genuine and forged signatures from 30 people, of which 50 percent are genuine and 50 percent are forged. This is an ideal class balance when building and training a model, but it is a rather small sample size. To train the model more effectively, image augmentation was performed to raise the training dataset from 240 images up to 3,360 images. 
 
 ---
 ## Methodology
-  I utilized Google colab to run my notebooks. The [colab_requirements](https://github.com/ZachRauch/Signature_Classification/blob/main/Data/colab_requirements.txt) are the package requirements the notebooks were run on. Using Google Colab significantly reduced runtime and allowed me to use newer versions of tensorflow. However, I was still limited by my working memory. I used a Keras wrapper in order to utilize scikit learns cross validation to assist in evaluating each model. I also used metrics of loss and accuracy while fitting to aid in determining the final model. The metrics of loss and accuracy were recorded using a ModelCheckpoint that saved the weghts of the best Epoch during gitting in regards to validation accuracy.
+  I utilized Google colab to run my notebooks. The [colab_requirements](https://github.com/ZachRauch/Signature_Classification/blob/main/Data/colab_requirements.txt) are the package requirements the notebooks were run on. Using Google Colab significantly reduced runtime and allowed me to use newer versions of Tensorflow. However, I was still limited by my working memory. I used a Keras wrapper in order to utilize scikit learns cross validation to assist in evaluating each model. I also used metrics of loss and accuracy while fitting to aid in determining the final model. The metrics of loss and accuracy were recorded using a ModelCheckpoint that saved the weights of the best Epoch during fitting in regards to validation accuracy.
 
 ---
 ## Results
-  Model3's crossvalidation score was 55%. When fit the model's maximum validation accuracy was 57% with a binary cross-entropy loss of .69. This is the highest fitted validation accuracy and lowest loss score of all the models. Thus Model3 was selected to be the final model. When evaluated on the test data it accurately classified 67% of signatures.
+  Model3's cross-validation score was 55%. When fit the model's maximum validation accuracy was 57% with a binary cross-entropy loss of .69. This is the highest fitted validation accuracy and lowest loss score of all the models. Thus Model3 was selected to be the final model. When evaluated on the test data it accurately classified 67% of signatures.
 
 ![img](./images/confusion_matrix.jpeg)
 
@@ -39,7 +39,7 @@ Zachary Rauch:
 ---
 ## Next Steps
 - Gather More Data: The dataset used in this study had only 300 images to work with. With more data, a model may be able to detect other patterns for classifying genuine and forged signatures.
-- More Complex Models: With more time and resources, training more complex or pretrain models may prove benificial. Complex models take time and memory to run but can provide better results.
+- More Complex Models: With more time and resources, training more complex or pretrain models may prove beneficial. Complex models take time and memory to run but can provide better results.
 - Types of Signatures: Explore different types of signatures, for example electronic versus physical. Explore different types of forgeries, for example skilled versus blind.
 
 ---
